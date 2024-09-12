@@ -257,7 +257,7 @@
                   <goal>config-mapper-parser</goal>
                 </goals>
                 <configuration>
-                  <miVersion>4.3.0</miVersion>
+                  <miVersion>4.2.0</miVersion>
                   <executeCipherTool>${ciphertool.enable}</executeCipherTool>
                   <keystoreName>${keystore.name}</keystoreName>
                   <keystoreAlias>${keystore.alias}</keystoreAlias>
