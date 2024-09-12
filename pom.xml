@@ -353,6 +353,5 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.scm.id>integration-project</project.scm.id>
-    <project.runtime.version>4.3.0</project.runtime.version>
   </properties>
 </project>
