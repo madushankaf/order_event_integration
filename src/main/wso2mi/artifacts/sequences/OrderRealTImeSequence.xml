@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence name="OrderRealTImeSequence" trace="disable" xmlns="http://ws.apache.org/ns/synapse">
+
+   <log category="INFO" level="full"/>
+	<payloadFactory media-type="json" template-type="default">
+		<format>{"partner_id": "$1"}</format>
+		<args>
+			<arg expression="$.partner_id" evaluator="json"/>
+		</args>
+	</payloadFactory>
+   <property name="partner_id" expression="json-eval($.partner_id)" scope="default" type="STRING"/>
+	<call>
+		<endpoint key="OrderService"/>
+	</call>
+	
+</sequence>

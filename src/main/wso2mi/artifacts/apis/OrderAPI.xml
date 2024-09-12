@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/orders" name="orderAPI" xmlns="http://ws.apache.org/ns/synapse">
+	<resource methods="GET" uri-template="/orders">
+		<inSequence>
+			<log category="INFO" level="full"/>
+			<sequence key="OrderRealTImeSequence"/>
+		</inSequence>
+		<faultSequence>
+		</faultSequence>
+	</resource>
+</api>

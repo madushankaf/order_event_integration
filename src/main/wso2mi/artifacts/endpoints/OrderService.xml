@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="OrderService" xmlns="http://ws.apache.org/ns/synapse">
+	<http method="post" uri-template="https://65e03872d3db23f76248a2aa.mockapi.io/Orders">
+		<suspendOnFailure>
+			<initialDuration>-1</initialDuration>
+			<progressionFactor>1</progressionFactor>
+		</suspendOnFailure>
+		<markForSuspension>
+			<retriesBeforeSuspension>0</retriesBeforeSuspension>
+		</markForSuspension>
+	</http>
+</endpoint>
