@@ -349,7 +349,7 @@
     <keystore.password>wso2carbon</keystore.password>
     <keystore.alias>wso2carbon</keystore.alias>
     <ciphertool.enable>true</ciphertool.enable>
-    <dockerfile.base.image>wso2/wso2mi:4.3.0</dockerfile.base.image>
+    <dockerfile.base.image>wso2/wso2mi:4.2.0</dockerfile.base.image>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.scm.id>integration-project</project.scm.id>
